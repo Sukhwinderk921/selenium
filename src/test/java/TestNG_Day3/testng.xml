@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">;-->
+<suite name="Suite">
+  <test name="Test">
+  
+  <group>
+  
+  <run>
+  <include name= "sanity"></include>
+  
+  <exclude name="regression"></exclude>
+  
+  </run>
+  
+  
+  </group>
+  
+    <classes>
+      <class name="TestNG_Day3.Grouping"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
